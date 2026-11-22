@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <aside class="sidebar">
+            <h2>✨ My AI</h2>
+
+            <button id="newChatBtn" class="new-chat">
+                + New Chat
+            </button>
+
+            <p class="sidebar-label">Your AI assistant</p>
+
+            <div class="sidebar-info">
+                Ask questions, learn coding, get explanations,
+                and explore ideas.
+            </div>
+        </aside>
+
+        <main class="main">
+
+            <header class="header">
+                <h2>AI Assistant</h2>
+                <span class="status">● Online</span>
+            </header>
+
+            <div id="chatBox" class="chat-box">
+
+                <div class="welcome" id="welcome">
+                    <h1>How can I help you today?</h1>
+                    <p>Ask me anything to get started.</p>
+                </div>
+
+            </div>
+
+            <div class="input-area">
+
+                <form id="chatForm">
+
+                    <textarea
+                        id="userInput"
+                        placeholder="Ask anything..."
+                        rows="1"
+                        required
+                    ></textarea>
+
+                    <button type="submit" id="sendBtn">
+                        Send ➤
+                    </button>
+
+                </form>
+
+                <p class="disclaimer">
+                    AI can make mistakes. Check important information.
+                </p>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
